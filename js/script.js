@@ -117,7 +117,7 @@ function actionPage(){
 function getData(){
     const goodsWrapper = document.querySelector('.goods');
 
-    return fetch('https://desp123.github.io/desptest.github.io/db.json')
+    return fetch('https://desp123.github.io/desptest.github.io/db/db.json')
     .then((responce)=>{
         if(responce.ok){
             return responce.json();
